@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layoutListHeaderView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/imageViewMomentsBg"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/dark_gray"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/textViewDefaltCover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/cover_default_text"/>
+
+        <LinearLayout
+            android:id="@+id/headerViewDivider"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/imageViewMomentsBg"
+            android:background="@android:color/white">
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageViewLoading"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-20dp"
+            android:src="@mipmap/loading" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageViewUserProfile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_gravity="right|bottom"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="95dp"
+        android:layout_marginEnd="95dp"
+        android:text="@string/tweet_default_sender_username"
+        android:textSize="18sp"
+        android:textColor="#fff"/>
+
+</FrameLayout >

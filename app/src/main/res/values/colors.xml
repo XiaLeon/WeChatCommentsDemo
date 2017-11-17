@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorGray">#808080</color>
+
+    <color name="colorRed">#DC143C</color>
+    <color name="colorPurple">#800080</color>
+    <color name="colorDarkBlue">#000080</color>
+    <color name="colorRoyalBlue">#4169E1</color>
+    <color name="colorGreen">#00FF7F</color>
+    <color name="colorLightGreen">#90EE90</color>
+    <color name="colorLightOrange">#FFE4B5</color>
+    <color name="colorOrange">#FFA500</color>
+
+    <color name="color_comment_username_text">#7888a9</color>
+</resources>

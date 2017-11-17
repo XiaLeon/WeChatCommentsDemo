@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.vivo.wechatcommentsdemo.view.MomentsListView
+        android:id="@+id/momentsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcfcfc"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/line"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:scrollbars="none" />
+
+    <ProgressBar
+        android:id="@+id/progressBarLoading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

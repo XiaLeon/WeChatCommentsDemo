@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="circle_color_array">
+        <item>@color/colorRed</item>
+        <item>@color/colorPurple</item>
+        <item>@color/colorDarkBlue</item>
+        <item>@color/colorRoyalBlue</item>
+        <item>@color/colorGreen</item>
+        <item>@color/colorLightGreen</item>
+        <item>@color/colorLightOrange</item>
+        <item>@color/colorOrange</item>
+    </array>
+
+</resources>

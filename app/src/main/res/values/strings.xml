@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeChatDemo</string>
+    <string name="tweet_default_sender_username">UserName</string>
+    <string name="tweet_default_sender_content">Sender Content</string>
+    <string name="footer_view_loading">Loading...</string>
+    <string name="text_empty_view">Content is Null.</string>
+    <string name="tweet_default_comment_content">: %1$s</string>
+    <string name="action_bar_take_photo">Take Photo</string>
+
+    <string name="dialog_title_no_network">No Network</string>
+    <string name="dialog_message_no_network">Please connect with Network, Click OK to finish, Click cancel to show empty content.</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <string name="cover_default_text">Tap to change album cover</string>
+    <string name="tweet_post_default_time">Today</string>
+
+</resources>
